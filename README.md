@@ -1,2 +1,1 @@
-https://github.com/erickouassi/Recipe-book
-
+https://erickouassi.github.io/Recipe-book/
