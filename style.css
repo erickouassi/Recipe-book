@@ -21,11 +21,20 @@
         text-align: center
          }
         #brecipe1 {
-            background-color: red;
+        background-color: red;
+        margin-left: auto; 
+        margin-right: auto; 
+        text-align: center
         }
         #brecipe2 {
-            background-color: green;
+        background-color: green;
+        margin-left: auto; 
+        margin-right: auto; 
+        text-align: center
         }
         #brecipe3 {
-            background-color: orange;
+        background-color: orange;
+        margin-left: auto; 
+        margin-right: auto; 
+        text-align: center
         }
