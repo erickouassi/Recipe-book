@@ -8,33 +8,35 @@
             font-size: 28px;
             color: Blue;
         }
+
         #title {
         border: 3px solid green;
         margin-left: auto; 
         margin-right: auto; 
         text-align: center
          }
+
         #contents {
         border: 0.5px solid green;
         margin-left: auto; 
         margin-right: auto; 
         text-align: center
          }
+
+        .recipe {
+        margin-left: auto; 
+        margin-right: auto; 
+        text-align: center
+        }
+
         #brecipe1 {
         background-color: red;
-        margin-left: auto; 
-        margin-right: auto; 
-        text-align: center
         }
+
         #brecipe2 {
         background-color: green;
-        margin-left: auto; 
-        margin-right: auto; 
-        text-align: center
         }
+
         #brecipe3 {
-        background-color: orange;
-        margin-left: auto; 
-        margin-right: auto; 
-        text-align: center
+        background-color: orange
         }
