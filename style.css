@@ -8,6 +8,10 @@
             font-size: 28px;
             color: Blue;
         }
+        #title {
+        text-align: center;
+        border: 3px solid green;
+         }
         
         #brecipe1 {
             background-color: red;
