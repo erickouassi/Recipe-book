@@ -9,12 +9,16 @@
             color: Blue;
         }
         #title {
-        text-align: center;
         border: 3px solid green;
+        margin-left: auto; 
+        margin-right: auto; 
+        text-align: center
          }
         #contents {
-        text-align: center;
-        border: 3px solid green;
+        border: 0.5px solid green;
+        margin-left: auto; 
+        margin-right: auto; 
+        text-align: center
          }
         #brecipe1 {
             background-color: red;
