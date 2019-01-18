@@ -20,7 +20,8 @@
         border: 0.5px solid green;
         margin-left: auto; 
         margin-right: auto; 
-        text-align: center
+        text-align: center;
+        dispay: flex
          }
 
         .recipe {
