@@ -1,13 +1,13 @@
-        body {
-            background-color: rgb(242, 238, 9);
-        }
-        p {
-            color: rgb(27, 12, 232);
-        }
-        h1 {
-            font-size: 28px;
-            color: Blue;
-        }
+       html, body {
+       padding: 0;
+       margin: 0;
+       }
+
+       body {
+       background-color: #BBB;
+       font-family: Helvetica, sans-serif;
+       padding-bottom: 100px;
+       }
 
         #title {
         border: 3px solid green;
