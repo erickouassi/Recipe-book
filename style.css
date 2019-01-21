@@ -1,48 +1,67 @@
-       html, body {
-       padding: 0;
-       margin: 0;
-       }
-
        body {
-       background-color: #BBB;
-       font-family: Helvetica, sans-serif;
-       padding-bottom: 100px;
-       }
+  margin: 40px;
+}
 
-        #title {
-        border: 3px solid green;
-        margin-left: auto; 
-        margin-right: auto; 
-        text-align: center
-         }
+.sidebar {
+        grid-area: sidebar;
+    }
 
-        #contents {
-        border: 0.5px solid green;
-        margin-left: auto; 
-        margin-right: auto; 
-        text-align: center;
-        dispay: flex
-         }
+    .content {
+        grid-area: content;
+    }
 
-        .recipe {
-        margin-left: auto; 
-        margin-right: auto; 
-        text-align: center
-        }
+    .header {
+        grid-area: header;
+    }
 
-        #brecipe1 {
+    .footer {
+        grid-area: footer;
+    }
+
+
+    .wrapper {
+        display: grid;
+    grid-gap: 10px;
+        grid-template-columns: 320px auto 120px;
+        grid-template-areas:
+    "....... header header"
+        "sidebar content content"
+        "footer  footer  footer";
+        background-color: #fff;
+        color: #444;
+    }
+
+
+.box {
+  background-image: url("https://i.imgur.com/OPqvYhj.png");
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 150%;
+}
+
+.header,
+.footer {
+  background-color: #999;
+}
+
+#brecipe1 {
         background-color: red;
+  
         }
-
-        #brecipe2 {
+#brecipe2 {
         background-color: green;
         }
 
         #brecipe3 {
         background-color: orange
         }
-
-        .footerCredit {
+#title {
+        margin-left: auto; 
+        margin-right: auto; 
+        text-align: center
+         }
+.footerCredit {
         margin-left: auto; 
         margin-right: auto; 
         text-align: center
