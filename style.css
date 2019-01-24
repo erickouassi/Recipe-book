@@ -56,8 +56,7 @@
         background-color: orange
         }
 #title {
-        margin-left: auto; 
-        margin-right: auto; 
+        margin: 0 auto;
         text-align: center
          }
 .footerCredit {
