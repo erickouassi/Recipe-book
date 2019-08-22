@@ -55,7 +55,8 @@ body {
         }
 
         #brecipe3 {
-        background-color: orange
+        background-color: orange;
+        color: black;
         }
 #title {
         margin-left: auto; 
@@ -65,5 +66,5 @@ body {
 .footerCredit {
         margin-left: auto; 
         margin-right: auto; 
-        text-align: center
+        text-align: center;
         }
