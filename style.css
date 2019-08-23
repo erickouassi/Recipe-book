@@ -68,3 +68,10 @@ body {
         margin-right: auto; 
         text-align: center;
         }
+.recipe {                
+    text-align:start;
+    text-indent:1.5em;
+}
+li{
+    margin-left:90px;
+}
