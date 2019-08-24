@@ -75,3 +75,6 @@ body {
 li{
     margin-left:90px;
 }
+a:link {
+  text-decoration: none;
+}
